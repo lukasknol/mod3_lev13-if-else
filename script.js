@@ -2,8 +2,15 @@ let age = 18;
 let isFemale = true;
 let driverStatus = 'bob';
 
-if (age > 17) {
-    console.log('You are old enough');
+/*
+Test data
+const age = 16; 
+const isFemale = false;
+const driverStatus = Johnson; 
+*/
+
+if (age >= 18) {
+    console.log('Come inside and have a drink!');
 } else {
     console.log('Sorry, you are too young to enter');
 }
